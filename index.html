@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Penguin Fashion</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts: Bebas Neue and Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .font-bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .font-roboto {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <header class="bg-[#FFFBF0] py-20 px-4 md:px-32">
+        <nav class="flex justify-between items-center mb-24 px-4">
+            <div>
+                <img class="w-52" src="./icons/logo.png" alt="">
+            </div>
+            <div class="hidden md:flex ">
+                <ul class="  flex gap-10 font-roboto font-medium text-lg text-slate-800 mt-6 md:mt-0">
+                    <li><a href="#" class="hover:text-amber-600">Home</a></li>
+                    <li><a href="#" class="hover:text-amber-600">Product</a></li>
+                    <li><a href="#" class="hover:text-amber-600">About us</a></li>
+                    <li><a href="#" class="hover:text-amber-600">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="flex flex-col md:flex-row justify-between items-center gap-12">
+            <div class="space-y-6 flex-1 text-center md:text-left">
+                <h1 class="text-7xl uppercase font-bebas leading-tight">
+                    <span class="text-[#FABE4C]">Be the Penguins</span>
+                    <br>
+                    of Winter
+                </h1>
+                <p class="text-lg text-slate-600 max-w-xl mx-auto md:mx-0">Lorem Ipsum is simply dummy text of the
+                    printing
+                    and typesetting industry.</p>
+                <button
+                    class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">Buy
+                    Now <i class="fa-solid fa-cart-arrow-down"></i></button>
+            </div>
+            <div class="flex-1 flex justify-center md:justify-end">
+                <img class="w-full max-w-lg" src="images/model.png" alt="Fashion Model">
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 lg:px-0 py-20">
+        <section class="mb-20">
+            <h3 class="text-5xl font-bebas mb-10 text-slate-900">Woman Jackets</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 font-roboto">
+
+                <div class="bg-white p-6 rounded-3xl shadow-lg flex flex-col justify-between border border-slate-100">
+                    <div class="bg-slate-100 p-6 rounded-2xl mb-5 flex justify-center">
+                        <img class="h-64 object-contain" src="images/jacket-1.png" alt="">
+                    </div>
+                    <div class="space-y-3 flex-grow">
+                        <h4 class="text-2xl font-bold text-slate-900">Yellow Coat Jacket</h4>
+                        <p class="text-slate-600 text-base">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.</p>
+                    </div>
+                    <div class="flex justify-between items-center mt-6">
+                        <h3 class="text-4xl font-black text-orange-400">$234</h3>
+                        <button
+                            class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">Buy
+                            Now <i class="fa-solid fa-cart-arrow-down"></i></button>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl shadow-lg flex flex-col justify-between border border-slate-100">
+                    <div class="bg-slate-100 p-6 rounded-2xl mb-5 flex justify-center">
+                        <img class="h-64 object-contain" src="images/jacket-2.png" alt="">
+                    </div>
+                    <div class="space-y-3 flex-grow">
+                        <h4 class="text-2xl font-bold text-slate-900">Classic Yellow Jacket</h4>
+                        <p class="text-slate-600 text-base">Perfect blend of style and comfort for casual winter wear.
+                        </p>
+                    </div>
+                    <div class="flex justify-between items-center mt-6">
+                        <h3 class="text-4xl font-black text-orange-400">$254</h3>
+                        <button
+                            class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">Buy
+                            Now <i class="fa-solid fa-cart-arrow-down"></i></button>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl shadow-lg flex flex-col justify-between border border-slate-100">
+                    <div class="bg-slate-100 p-6 rounded-2xl mb-5 flex justify-center">
+                        <img class="h-64 object-contain" src="images/jacket-3.png" alt="">
+                    </div>
+                    <div class="space-y-3 flex-grow">
+                        <h4 class="text-2xl font-bold text-slate-900">Stylish Red Jacket</h4>
+                        <p class="text-slate-600 text-base">Stand out this winter with this vibrant, bold red piece.</p>
+                    </div>
+                    <div class="flex justify-between items-center mt-6">
+                        <h3 class="text-4xl font-black text-orange-400">$299</h3>
+                        <button
+                            class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">Buy
+                            Now <i class="fa-solid fa-cart-arrow-down"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-20">
+            <h3 class="text-5xl font-bebas mb-10 text-slate-900">Man Jackets</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 font-roboto">
+
+                <div class="bg-white p-6 rounded-3xl shadow-lg flex flex-col justify-between border border-slate-100">
+                    <div class="bg-slate-100 p-6 rounded-2xl mb-5 flex justify-center">
+                        <img class="h-64 object-contain" src="images/jacket-4.png" alt="">
+                    </div>
+                    <div class="space-y-3 flex-grow">
+                        <h4 class="text-2xl font-bold text-slate-900">Snowboard Jacket Mens</h4>
+                        <p class="text-slate-600 text-base">Perfect for winter activities and keeping warm in snow.</p>
+                    </div>
+                    <div class="flex justify-between items-center mt-6">
+                        <h3 class="text-4xl font-black text-orange-400">$234</h3>
+                        <button
+                            class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">Buy
+                            Now <i class="fa-solid fa-cart-arrow-down"></i></button>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl shadow-lg flex flex-col justify-between border border-slate-100">
+                    <div class="bg-slate-100 p-6 rounded-2xl mb-5 flex justify-center">
+                        <img class="h-64 object-contain" src="images/jacket-5.png" alt="">
+                    </div>
+                    <div class="space-y-3 flex-grow">
+                        <h4 class="text-2xl font-bold text-slate-900">Deep Burgundy Puffer</h4>
+                        <p class="text-slate-600 text-base">Stylish and practical, a must-have for cold city days.</p>
+                    </div>
+                    <div class="flex justify-between items-center mt-6">
+                        <h3 class="text-4xl font-black text-orange-400">$234</h3>
+                        <button
+                            class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">Buy
+                            Now <i class="fa-solid fa-cart-arrow-down"></i></button>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl shadow-lg flex flex-col justify-between border border-slate-100">
+                    <div class="bg-slate-100 p-6 rounded-2xl mb-5 flex justify-center">
+                        <img class="h-64 object-contain" src="images/jacket-6.png" alt="">
+                    </div>
+                    <div class="space-y-3 flex-grow">
+                        <h4 class="text-2xl font-bold text-slate-900">The Black Puffer</h4>
+                        <p class="text-slate-600 text-base">The classic black jacket that goes with everything.</p>
+                    </div>
+                    <div class="flex justify-between items-center mt-6">
+                        <h3 class="text-4xl font-black text-orange-400">$234</h3>
+                        <button
+                            class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium">Buy
+                            Now <i class="fa-solid fa-cart-arrow-down"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 flex flex-col-reverse lg:flex-row items-center gap-16 lg:gap-24 font-roboto">
+            <div class="w-full lg:w-1/2 space-y-6">
+                <div
+                    class="flex items-center gap-6 p-7 shadow-lg rounded-2xl bg-white border border-slate-50 transition hover:border-amber-200 hover:shadow-xl">
+                    <img class="w-20 h-20" src="./icons/house.png" alt="">
+                    <div>
+                        <h4 class="text-2xl font-bold text-slate-900">Find the Perfect Fit</h4>
+                        <p class="text-slate-600">Everybody is different, which is why we offer a wide range of styles.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="flex items-center gap-6 p-7 shadow-lg rounded-2xl bg-white border border-slate-50 transition hover:border-amber-200 hover:shadow-xl">
+                    <img class="w-20 h-20" src="./icons/box.png" alt="">
+                    <div>
+                        <h4 class="text-2xl font-bold text-slate-900">Free Exchanges</h4>
+                        <p class="text-slate-600">One of the many reasons you can shop with complete peace of mind.</p>
+                    </div>
+                </div>
+                <div
+                    class="flex items-center gap-6 p-7 shadow-lg rounded-2xl bg-white border border-slate-50 transition hover:border-amber-200 hover:shadow-xl">
+                    <img class="w-20 h-20" src="./icons/question.png" alt="">
+                    <div>
+                        <h4 class="text-2xl font-bold text-slate-900">Contact Our Seller</h4>
+                        <p class="text-slate-600">They are here to help you find that perfect winter outfit.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full  lg:w-1/2 flex justify-center">
+                <img class="w-full max-w-2xl" src="./images/shopping.png" alt="">
+            </div>
+        </section>
+    </main>
+
+
+
+</body>
+
+</html>
